@@ -13,7 +13,7 @@ public class VoteServiceImpl implements VoteService{
 
     public void enterCandidate(String name) {
         if(candidates.get(name) != null){
-            System.out.println("You Alredy Registerd: ");
+            System.out.println("You Alredy Registerd and Be Cool:  ");
         }else {
             candidates.put(name, new Candidate(name, 0));
         }
